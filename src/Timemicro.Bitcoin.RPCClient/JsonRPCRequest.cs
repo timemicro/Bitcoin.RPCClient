@@ -13,7 +13,7 @@ namespace Timemicro.Bitcoin.RPCClient
             Params = new object[]{};
         }
 
-        public JsonRPCRequest(string method, List<object> parameters)
+        public JsonRPCRequest(string method, List<object> parameters) : this()
         {
             Method = method;
             Params = parameters.ToArray();

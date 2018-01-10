@@ -11,5 +11,10 @@ namespace Timemicro.Bitcoin.RPCClient
 
             return JsonConvert.DeserializeObject<Resp>(responseText);
         }
+
+        public static Resp Call<Resp>(this JsonRPCClient client, string method, JsonRPCRequestParams parameters)
+        {
+            return client.Call<Resp>(method, parameters.ToArray());
+        }
     }
 }

@@ -5,6 +5,7 @@ namespace Timemicro.Bitcoin.RPCClient.Methods
     {
         public GetBalanceParams()
         {
+            Account = string.Empty;
         }
 
         public string Account

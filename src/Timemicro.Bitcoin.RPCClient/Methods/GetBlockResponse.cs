@@ -44,13 +44,13 @@ namespace Timemicro.Bitcoin.RPCClient.Methods
         public List<string> Tx { get; set; }
 
         [JsonProperty("time")]
-        public int Time { get; set; }
+        public long Time { get; set; }
 
         [JsonProperty("mediantime")]
-        public int MedianTime { get; set; }
+        public long MedianTime { get; set; }
 
         [JsonProperty("nonce")]
-        public int Nonce { get; set; }
+        public long Nonce { get; set; }
 
         [JsonProperty("bits")]
         public string Bits { get; set; }
