@@ -26,7 +26,7 @@ namespace TimemicroCore.Bitcoin.RPCClient.ConsoleApp
             var resp3 = client.Call<GetBlockResponse>(JsonRPCMethods.GetBlock, new GetBlockParams() { HeaderHash = resp2.Result });
             Console.WriteLine(resp3);
 
-            var resp4 = client.Call<GetChainTipsResponse>(JsonRPCMethods.GetBlock, new GetChainTipsParams());
+            var resp4 = client.Call<GetChainTipsResponse>(JsonRPCMethods.GetChainTips, new GetChainTipsParams());
             Console.WriteLine(resp4);
 
         }

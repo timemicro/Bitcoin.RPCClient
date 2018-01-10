@@ -36,6 +36,8 @@
     <Compile Include="JsonRPCResponseError.cs" />
     <Compile Include="Methods\GetBalanceResponse.cs" />
     <Compile Include="Methods\GetBalanceParams.cs" />
+    <Compile Include="Methods\GetChainTipsParams.cs" />
+    <Compile Include="Methods\GetChainTipsResponse.cs" />
     <Compile Include="Methods\GetNewAddressParams.cs" />
     <Compile Include="Methods\GetNewAddressResponse.cs" />
     <Compile Include="Methods\GetBestBlockHashResponse.cs" />

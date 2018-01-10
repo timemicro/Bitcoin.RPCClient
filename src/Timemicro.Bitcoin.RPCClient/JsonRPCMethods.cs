@@ -10,6 +10,8 @@ namespace Timemicro.Bitcoin.RPCClient
 
         public static string GetBlock = "getblock";
 
+        public static string GetChainTips = "getchaintips";
+
         public static string GetNewAddress = "getnewaddress";
     }
 }
