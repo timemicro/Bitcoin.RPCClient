@@ -1,6 +1,5 @@
 ﻿using System;
 using Newtonsoft.Json;
-using Timemicro.Bitcoin.RPCClient.Methods;
 
 namespace Timemicro.Bitcoin.RPCClient
 {

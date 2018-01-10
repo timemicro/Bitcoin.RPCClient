@@ -1,4 +1,5 @@
 ﻿using System;
+
 namespace Timemicro.Bitcoin.RPCClient
 {
     public static class JsonRPCMethods
