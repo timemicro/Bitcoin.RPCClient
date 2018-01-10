@@ -51,6 +51,12 @@
     <Compile Include="..\Timemicro.Bitcoin.RPCClient\Methods\GetNewAddressResponse.cs">
       <Link>Methods\GetNewAddressResponse.cs</Link>
     </Compile>
+    <Compile Include="..\Timemicro.Bitcoin.RPCClient\Methods\GetBlockParam.cs">
+      <Link>Methods\GetBlockParam.cs</Link>
+    </Compile>
+    <Compile Include="..\Timemicro.Bitcoin.RPCClient\Methods\GetBlockResponse.cs">
+      <Link>Methods\GetBlockResponse.cs</Link>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />

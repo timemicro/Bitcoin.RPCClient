@@ -7,6 +7,8 @@ namespace Timemicro.Bitcoin.RPCClient
 
         public static string GetBestBlockHash = "getbestblockhash";
 
+        public static string GetBlock = "getblock";
+
         public static string GetNewAddress = "getnewaddress";
     }
 }

@@ -40,6 +40,8 @@
     <Compile Include="Methods\GetNewAddressResponse.cs" />
     <Compile Include="Methods\GetBestBlockHashResponse.cs" />
     <Compile Include="Methods\GetBestBlockHashParams.cs" />
+    <Compile Include="Methods\GetBlockParam.cs" />
+    <Compile Include="Methods\GetBlockResponse.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
