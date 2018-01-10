@@ -1,0 +1,58 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Timemicro.Bitcoin.RPCClient</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Class1.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Methods\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\Timemicro.Bitcoin.RPCClient\JsonRPCClient.cs">
+      <Link>JsonRPCClient.cs</Link>
+    </Compile>
+    <Compile Include="..\Timemicro.Bitcoin.RPCClient\JsonRPCMethods.cs">
+      <Link>JsonRPCMethods.cs</Link>
+    </Compile>
+    <Compile Include="..\Timemicro.Bitcoin.RPCClient\JsonRPCRequest.cs">
+      <Link>JsonRPCRequest.cs</Link>
+    </Compile>
+    <Compile Include="..\Timemicro.Bitcoin.RPCClient\JsonRPCRequestParams.cs">
+      <Link>JsonRPCRequestParams.cs</Link>
+    </Compile>
+    <Compile Include="..\Timemicro.Bitcoin.RPCClient\JsonRPCResponse.cs">
+      <Link>JsonRPCResponse.cs</Link>
+    </Compile>
+    <Compile Include="..\Timemicro.Bitcoin.RPCClient\JsonRPCResponseError.cs">
+      <Link>JsonRPCResponseError.cs</Link>
+    </Compile>
+    <Compile Include="..\Timemicro.Bitcoin.RPCClient\JsonRPC.cs">
+      <Link>JsonRPC.cs</Link>
+    </Compile>
+    <Compile Include="..\Timemicro.Bitcoin.RPCClient\Methods\GetBalanceParams.cs">
+      <Link>Methods\GetBalanceParams.cs</Link>
+    </Compile>
+    <Compile Include="..\Timemicro.Bitcoin.RPCClient\Methods\GetBalanceResponse.cs">
+      <Link>Methods\GetBalanceResponse.cs</Link>
+    </Compile>
+    <Compile Include="..\Timemicro.Bitcoin.RPCClient\Methods\GetBestBlockHashParams.cs">
+      <Link>Methods\GetBestBlockHashParams.cs</Link>
+    </Compile>
+    <Compile Include="..\Timemicro.Bitcoin.RPCClient\Methods\GetBestBlockHashResponse.cs">
+      <Link>Methods\GetBestBlockHashResponse.cs</Link>
+    </Compile>
+    <Compile Include="..\Timemicro.Bitcoin.RPCClient\Methods\GetNewAddressParams.cs">
+      <Link>Methods\GetNewAddressParams.cs</Link>
+    </Compile>
+    <Compile Include="..\Timemicro.Bitcoin.RPCClient\Methods\GetNewAddressResponse.cs">
+      <Link>Methods\GetNewAddressResponse.cs</Link>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+  </ItemGroup>
+</Project>
