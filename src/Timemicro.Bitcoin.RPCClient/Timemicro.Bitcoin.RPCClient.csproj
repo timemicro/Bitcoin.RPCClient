@@ -44,6 +44,14 @@
     <Compile Include="Methods\GetBestBlockHashParams.cs" />
     <Compile Include="Methods\GetBlockParams.cs" />
     <Compile Include="Methods\GetBlockResponse.cs" />
+    <Compile Include="Methods\GetRawTransactionParams.cs" />
+    <Compile Include="Methods\GetRawTransactionResponse.cs" />
+    <Compile Include="Methods\SendManyParams.cs" />
+    <Compile Include="Methods\SendManyResponse.cs" />
+    <Compile Include="Methods\SetTxFeeParams.cs" />
+    <Compile Include="Methods\SetTxFeeResponse.cs" />
+    <Compile Include="Methods\WalletPassphraseParams.cs" />
+    <Compile Include="Methods\WalletPassphraseResponse.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />

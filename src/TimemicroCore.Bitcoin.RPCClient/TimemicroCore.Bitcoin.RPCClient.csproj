@@ -61,6 +61,14 @@
     <Compile Include="..\Timemicro.Bitcoin.RPCClient\Methods\GetChainTipsResponse.cs">
       <Link>Methods\GetChainTipsResponse.cs</Link>
     </Compile>
+    <Compile Include="..\Timemicro.Bitcoin.RPCClient\Methods\GetRawTransactionParams.cs" Link="Methods\GetRawTransactionParams.cs" />
+    <Compile Include="..\Timemicro.Bitcoin.RPCClient\Methods\GetRawTransactionResponse.cs" Link="Methods\GetRawTransactionResponse.cs" />
+    <Compile Include="..\Timemicro.Bitcoin.RPCClient\Methods\SendManyParams.cs" Link="Methods\SendManyParams.cs" />
+    <Compile Include="..\Timemicro.Bitcoin.RPCClient\Methods\SendManyResponse.cs" Link="Methods\SendManyResponse.cs" />
+    <Compile Include="..\Timemicro.Bitcoin.RPCClient\Methods\SetTxFeeParams.cs" Link="Methods\SetTxFeeParams.cs" />
+    <Compile Include="..\Timemicro.Bitcoin.RPCClient\Methods\SetTxFeeResponse.cs" Link="Methods\SetTxFeeResponse.cs" />
+    <Compile Include="..\Timemicro.Bitcoin.RPCClient\Methods\WalletPassphraseParams.cs" Link="Methods\WalletPassphraseParams.cs" />
+    <Compile Include="..\Timemicro.Bitcoin.RPCClient\Methods\WalletPassphraseResponse.cs" Link="Methods\WalletPassphraseResponse.cs" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />

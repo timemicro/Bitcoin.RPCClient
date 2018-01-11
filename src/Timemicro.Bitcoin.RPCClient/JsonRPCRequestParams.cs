@@ -32,10 +32,7 @@ namespace Timemicro.Bitcoin.RPCClient
         {
             if (Count < index + 1)
             {
-                for (int i = 0; i < (index + 1); i++)
-                {
-                    Add(null);
-                }
+                Add(null);
             }
             this[index] = val;
         }

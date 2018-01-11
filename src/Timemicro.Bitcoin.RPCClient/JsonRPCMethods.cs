@@ -13,5 +13,13 @@ namespace Timemicro.Bitcoin.RPCClient
         public static string GetChainTips = "getchaintips";
 
         public static string GetNewAddress = "getnewaddress";
+
+        public static string GetRawTransaction = "getrawtransaction";
+
+        public static string SendMany = "sendmany";
+
+        public static string SetTxFee = "settxfee";
+
+        public static string WalletPassphrase = "walletpassphrase";
     }
 }
