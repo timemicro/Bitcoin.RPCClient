@@ -38,6 +38,7 @@ namespace TimemicroCore.Bitcoin.RPCClient.ConsoleApp
            Console.WriteLine(resp5);
            */
 
+            /*
             var resp7 = client.Call<WalletPassphraseResponse>(JsonRPCMethods.WalletPassphrase, new WalletPassphraseParams()
             {
                 Passphrase = "fslong25!@#",
@@ -62,6 +63,19 @@ namespace TimemicroCore.Bitcoin.RPCClient.ConsoleApp
                 Comment = "testsendmany"
             });
             Console.WriteLine(resp6);
+            */
+
+            var resp9 = client.Call<ListUnspentResponse>(JsonRPCMethods.ListUnspent, new ListUnspentParams()
+            {
+
+            });
+            Console.WriteLine(resp9);
+
+            var resp10 = client.Call<ListUnspentResponse>(JsonRPCMethods.ListUnspent, new ListUnspentParams()
+            {
+                Addresses = new List<string>() { "myuuAQtmqBNHC9iYeUke1nCn1kV6NPK2QT" }
+            });
+            Console.WriteLine(resp10);
         }
     }
 }

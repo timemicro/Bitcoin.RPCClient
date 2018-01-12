@@ -4,6 +4,8 @@ namespace Timemicro.Bitcoin.RPCClient
 {
     public static class JsonRPCMethods
     {
+        public static string DumpPrivKey = "dumpprivkey";
+
         public static string GetBalance = "getbalance";
 
         public static string GetBestBlockHash = "getbestblockhash";
@@ -15,6 +17,12 @@ namespace Timemicro.Bitcoin.RPCClient
         public static string GetNewAddress = "getnewaddress";
 
         public static string GetRawTransaction = "getrawtransaction";
+
+        public static string GetWalletInfo = "getwalletinfo";
+
+        public static string ListTransactions = "listtransactions";
+
+        public static string ListUnspent = "listunspent";
 
         public static string SendMany = "sendmany";
 

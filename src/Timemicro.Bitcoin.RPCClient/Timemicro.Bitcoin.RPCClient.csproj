@@ -17,7 +17,7 @@
     <DefineConstants>DEBUG;</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <PlatformTarget>x86</PlatformTarget>
+    <PlatformTarget>AnyCPU</PlatformTarget>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
     <Optimize>true</Optimize>
@@ -34,6 +34,8 @@
     <Compile Include="JsonRPC.cs" />
     <Compile Include="JsonRPCResponse.cs" />
     <Compile Include="JsonRPCResponseError.cs" />
+    <Compile Include="Methods\DumpPrivKeyParams.cs" />
+    <Compile Include="Methods\DumpPrivKeyResponse.cs" />
     <Compile Include="Methods\GetBalanceResponse.cs" />
     <Compile Include="Methods\GetBalanceParams.cs" />
     <Compile Include="Methods\GetChainTipsParams.cs" />
@@ -46,6 +48,12 @@
     <Compile Include="Methods\GetBlockResponse.cs" />
     <Compile Include="Methods\GetRawTransactionParams.cs" />
     <Compile Include="Methods\GetRawTransactionResponse.cs" />
+    <Compile Include="Methods\GetWalletInfoParams.cs" />
+    <Compile Include="Methods\GetWalletInfoResponse.cs" />
+    <Compile Include="Methods\ListTransactionsParams.cs" />
+    <Compile Include="Methods\ListTransactionsResponse.cs" />
+    <Compile Include="Methods\ListUnspentParams.cs" />
+    <Compile Include="Methods\ListUnspentResponse.cs" />
     <Compile Include="Methods\SendManyParams.cs" />
     <Compile Include="Methods\SendManyResponse.cs" />
     <Compile Include="Methods\SetTxFeeParams.cs" />

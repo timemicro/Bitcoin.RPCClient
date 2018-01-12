@@ -33,6 +33,8 @@
     <Compile Include="..\Timemicro.Bitcoin.RPCClient\JsonRPC.cs">
       <Link>JsonRPC.cs</Link>
     </Compile>
+    <Compile Include="..\Timemicro.Bitcoin.RPCClient\Methods\DumpPrivKeyParams.cs" Link="Methods\DumpPrivKeyParams.cs" />
+    <Compile Include="..\Timemicro.Bitcoin.RPCClient\Methods\DumpPrivKeyResponse.cs" Link="Methods\DumpPrivKeyResponse.cs" />
     <Compile Include="..\Timemicro.Bitcoin.RPCClient\Methods\GetBalanceParams.cs">
       <Link>Methods\GetBalanceParams.cs</Link>
     </Compile>
@@ -63,6 +65,12 @@
     </Compile>
     <Compile Include="..\Timemicro.Bitcoin.RPCClient\Methods\GetRawTransactionParams.cs" Link="Methods\GetRawTransactionParams.cs" />
     <Compile Include="..\Timemicro.Bitcoin.RPCClient\Methods\GetRawTransactionResponse.cs" Link="Methods\GetRawTransactionResponse.cs" />
+    <Compile Include="..\Timemicro.Bitcoin.RPCClient\Methods\GetWalletInfoParams.cs" Link="Methods\GetWalletInfoParams.cs" />
+    <Compile Include="..\Timemicro.Bitcoin.RPCClient\Methods\GetWalletInfoResponse.cs" Link="Methods\GetWalletInfoResponse.cs" />
+    <Compile Include="..\Timemicro.Bitcoin.RPCClient\Methods\ListTransactionsParams.cs" Link="Methods\ListTransactionsParams.cs" />
+    <Compile Include="..\Timemicro.Bitcoin.RPCClient\Methods\ListTransactionsResponse.cs" Link="Methods\ListTransactionsResponse.cs" />
+    <Compile Include="..\Timemicro.Bitcoin.RPCClient\Methods\ListUnspentParams.cs" Link="Methods\ListUnspentParams.cs" />
+    <Compile Include="..\Timemicro.Bitcoin.RPCClient\Methods\ListUnspentResponse.cs" Link="Methods\ListUnspentResponse.cs" />
     <Compile Include="..\Timemicro.Bitcoin.RPCClient\Methods\SendManyParams.cs" Link="Methods\SendManyParams.cs" />
     <Compile Include="..\Timemicro.Bitcoin.RPCClient\Methods\SendManyResponse.cs" Link="Methods\SendManyResponse.cs" />
     <Compile Include="..\Timemicro.Bitcoin.RPCClient\Methods\SetTxFeeParams.cs" Link="Methods\SetTxFeeParams.cs" />

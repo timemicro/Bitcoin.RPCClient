@@ -33,11 +33,11 @@ namespace Timemicro.Bitcoin.RPCClient
 
                 var requestData = Encoding.UTF8.GetBytes(requestText);
 
+                http.ContentLength = requestData.Length;
+
                 var requestStream = http.GetRequestStream();
 
                 requestStream.Write(requestData, 0, requestData.Length);
-
-                http.ContentLength = requestData.Length;
 
                 var response = http.GetResponse();
                 using (var reader = new StreamReader(response.GetResponseStream(), Encoding.UTF8))
