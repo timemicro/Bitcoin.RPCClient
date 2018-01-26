@@ -38,6 +38,8 @@
     <Compile Include="Methods\DumpPrivKeyResponse.cs" />
     <Compile Include="Methods\GetBalanceResponse.cs" />
     <Compile Include="Methods\GetBalanceParams.cs" />
+    <Compile Include="Methods\GetBlockHashParams.cs" />
+    <Compile Include="Methods\GetBlockHashResponse.cs" />
     <Compile Include="Methods\GetChainTipsParams.cs" />
     <Compile Include="Methods\GetChainTipsResponse.cs" />
     <Compile Include="Methods\GetNewAddressParams.cs" />
@@ -48,6 +50,8 @@
     <Compile Include="Methods\GetBlockResponse.cs" />
     <Compile Include="Methods\GetRawTransactionParams.cs" />
     <Compile Include="Methods\GetRawTransactionResponse.cs" />
+    <Compile Include="Methods\GetTransactionParams.cs" />
+    <Compile Include="Methods\GetTransactionResponse.cs" />
     <Compile Include="Methods\GetWalletInfoParams.cs" />
     <Compile Include="Methods\GetWalletInfoResponse.cs" />
     <Compile Include="Methods\ListTransactionsParams.cs" />

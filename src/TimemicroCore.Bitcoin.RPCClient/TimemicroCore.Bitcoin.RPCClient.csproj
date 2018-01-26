@@ -47,6 +47,8 @@
     <Compile Include="..\Timemicro.Bitcoin.RPCClient\Methods\GetBestBlockHashResponse.cs">
       <Link>Methods\GetBestBlockHashResponse.cs</Link>
     </Compile>
+    <Compile Include="..\Timemicro.Bitcoin.RPCClient\Methods\GetBlockHashParams.cs" Link="Methods\GetBlockHashParams.cs" />
+    <Compile Include="..\Timemicro.Bitcoin.RPCClient\Methods\GetBlockHashResponse.cs" Link="Methods\GetBlockHashResponse.cs" />
     <Compile Include="..\Timemicro.Bitcoin.RPCClient\Methods\GetBlockParams.cs" Link="Methods\GetBlockParams.cs" />
     <Compile Include="..\Timemicro.Bitcoin.RPCClient\Methods\GetNewAddressParams.cs">
       <Link>Methods\GetNewAddressParams.cs</Link>
@@ -65,6 +67,8 @@
     </Compile>
     <Compile Include="..\Timemicro.Bitcoin.RPCClient\Methods\GetRawTransactionParams.cs" Link="Methods\GetRawTransactionParams.cs" />
     <Compile Include="..\Timemicro.Bitcoin.RPCClient\Methods\GetRawTransactionResponse.cs" Link="Methods\GetRawTransactionResponse.cs" />
+    <Compile Include="..\Timemicro.Bitcoin.RPCClient\Methods\GetTransactionParams.cs" Link="Methods\GetTransactionParams.cs" />
+    <Compile Include="..\Timemicro.Bitcoin.RPCClient\Methods\GetTransactionResponse.cs" Link="Methods\GetTransactionResponse.cs" />
     <Compile Include="..\Timemicro.Bitcoin.RPCClient\Methods\GetWalletInfoParams.cs" Link="Methods\GetWalletInfoParams.cs" />
     <Compile Include="..\Timemicro.Bitcoin.RPCClient\Methods\GetWalletInfoResponse.cs" Link="Methods\GetWalletInfoResponse.cs" />
     <Compile Include="..\Timemicro.Bitcoin.RPCClient\Methods\ListTransactionsParams.cs" Link="Methods\ListTransactionsParams.cs" />

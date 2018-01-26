@@ -8,10 +8,6 @@ namespace Timemicro.Bitcoin.RPCClient.Methods
             Account = string.Empty;
         }
 
-        public string Account
-        {
-            get { return Get<string>(0); }
-            set { Set(0, value); }
-        }
+        public string Account { get { return Get<string>(0); } set { Set(0, value); } }
     }
 }
