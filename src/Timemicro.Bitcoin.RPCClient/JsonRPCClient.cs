@@ -9,18 +9,23 @@ namespace Timemicro.Bitcoin.RPCClient
 {
     public class JsonRPCClient
     {
-
         private string rpcurl;
 
         private string rpcuser;
 
         private string rpcpassword;
 
-        public JsonRPCClient(string rpcurl, string rpcuser, string rpcpassword)
+        public string WalletPassphrase { get; }
+
+        public JsonRPCClient(string rpcurl
+            , string rpcuser
+            , string rpcpassword
+            , string walletPassphrase)
         {
             this.rpcurl = rpcurl;
             this.rpcuser = rpcuser;
             this.rpcpassword = rpcpassword;
+            WalletPassphrase = walletPassphrase;
         }
 
         public string Call(string method, params object[] parameters)

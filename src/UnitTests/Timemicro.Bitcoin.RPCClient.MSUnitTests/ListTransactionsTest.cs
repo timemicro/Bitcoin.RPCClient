@@ -11,7 +11,7 @@ namespace Timemicro.Bitcoin.RPCClient.MSUnitTests
     [TestClass]
     public class ListTransactionsTest
     {
-        static JsonRPCClient RPC = new JsonRPCClient("http://127.0.0.1:18332", "bitcoinrpc", "123456");
+        static JsonRPCClient RPC = new JsonRPCClient("http://127.0.0.1:18332", "bitcoinrpc", "123456", "");
 
         [TestMethod]
         public void TestListTransactions()

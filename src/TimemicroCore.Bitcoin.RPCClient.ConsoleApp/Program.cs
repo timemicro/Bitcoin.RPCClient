@@ -13,7 +13,7 @@ namespace TimemicroCore.Bitcoin.RPCClient.ConsoleApp
 
             Console.WriteLine(new GetBalanceParams() { Account = "mattf"});
 
-            JsonRPCClient client = new JsonRPCClient("http://127.0.0.1:18332", "bitcoinrpc", "123456");
+            JsonRPCClient client = new JsonRPCClient("http://127.0.0.1:18332", "bitcoinrpc", "123456", "");
             /*
            var resp0 = client.Call<GetNewAddressResponse>(JsonRPCMethods.GetNewAddress, new GetNewAddressParams());
            Console.WriteLine(resp0);
